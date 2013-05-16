@@ -127,7 +127,7 @@
 		<div id="menu">
 			<ul id="listMenu" class="nav-tab nav-stacked">
 				<li id="bio">
-					<a href="#bio" data-toggle="tab">
+					<a href="#biography" data-toggle="tab">
 						BIO
 					</a>
 				</li>
@@ -214,7 +214,7 @@
 		</div>
 		<div id="twitterTimeLine">
 
-		</div>
+		</divisorPink>
 	</div>
 
 	<div id="divisorPink">
@@ -224,20 +224,20 @@
 	</div>
 
 	<!--Content--> 
-	<div id="mainTab" class="tab-content" stile="position: relative; z-index: 1;">
+	<div id="mainTab" class="tab-content" stile="position: relative; z-index: 1; height: auto; min-height: 500px;">
 		
 		<!--Content from dinamic display-->
 
 		<?php 
-			/*
+			
 			include_once('protegido/mysql.php');
 
 			$idTxt = ''; #VARIABLES QUE ALMACENARAN LOS ID'S DEL CONTENIDO
 
-			$bd = new MYSQL;
+			//$bd = new MYSQL;
 
 			#CONECTAR A LA BD
-			$bd->conectar();
+			//$bd->conectar();
 
 			#INCLUDE AL FILES TO RENDER
 			@include_once('protegido/vistas/biography.php');
@@ -249,8 +249,8 @@
 			@include_once('protegido/vistas/contact.php');
 
 			#DESCONECTAR DE LA BD
-			$bd->desconectar();
-			*/
+			//$bd->desconectar();
+			
 		?>
 
 	</div>
