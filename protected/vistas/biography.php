@@ -16,19 +16,28 @@ if ( isset( $_GET['v'] ) ){
 
 <div id="biography" class="wrapper tab-pane fade <?php echo $tab_activo; $tab_activo=''; ?>" >
 	<div class="bgFade">
-		<img src="img/banners/bio_block1.jpg">
-		<img src="img/banners/bio_block2.png">
-		<img src="img/banners/bio_block3.png">
-		<img src="img/banners/bio_block4.png">
-		<img src="img/banners/bio_block5.png">
-		<img src="img/banners/bio_block6.png">
-		<img src="img/banners/bio_block7.png">
-		<img src="img/banners/bio_block8.png">
-		<img src="img/banners/bio_block9.png">
-		<img src="img/banners/bio_block10.png">
-		<img src="img/banners/bio_block11.png">
-		<img src="img/banners/bio_block12.png">
-		<img src="img/banners/bio_block13.png">
-		<img src="img/banners/bio_block14.png">
+
+		<div id="divisorPink">
+			<p id="nameSection">
+				BIO				
+			</p>
+		</div>
+
+		<div id="bioContent">
+			<img src="img/banners/bio_block1.jpg">
+			<img src="img/banners/bio_block2.png">
+			<img src="img/banners/bio_block3.png">
+			<img src="img/banners/bio_block4.png">
+			<img src="img/banners/bio_block5.png">
+			<img src="img/banners/bio_block6.png">
+			<img src="img/banners/bio_block7.png">
+			<img src="img/banners/bio_block8.png">
+			<img src="img/banners/bio_block9.png">
+			<img src="img/banners/bio_block10.png">
+			<img src="img/banners/bio_block11.png">
+			<img src="img/banners/bio_block12.png">
+			<img src="img/banners/bio_block13.png">
+			<img src="img/banners/bio_block14.png">
+		</div>
 	</div>
 </div>

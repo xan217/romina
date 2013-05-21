@@ -126,6 +126,7 @@
 	<div id="menuAndBanner">
 		<div id="menu">
 			<ul id="listMenu" class="nav-tab nav-stacked">
+				
 				<li id="bio">
 					<a href="#biography" data-toggle="tab">
 						BIO
@@ -215,12 +216,6 @@
 		<div id="twitterTimeLine">
 
 		</divisorPink>
-	</div>
-
-	<div id="divisorPink">
-		<p id="nameSection">
-
-		</p>
 	</div>
 
 	<!--Content--> 

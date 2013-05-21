@@ -1,14 +1,14 @@
-<?php
-#INICIALIZACION DE LA VARIABLE $tab_activo
-$tab_activo  = ''; 
+<?php 
 if ( isset( $_GET['v'] ) ){
-	if( $_GET['v'] == 'inicio' ){
+	if( $_GET['v'] == 'discography' ){
 		$tab_activo = "active in";
-	}else if( $_GET['v'] != 'empresa' and $_GET['v'] != 'bateriaiq' and $_GET['v'] != 'bateriavmf' and $_GET['v'] != 'cargadores' and $_GET['v'] != 'distribuidores' and $_GET['v'] != 'serdistribuidor' and $_GET['v'] != 'ventajas' and $_GET['v'] != 'contactanos' and $_GET['v'] != 'rastrear' ){
-		$tab_activo = "active in";
+		?>
+		<script type="text/javascript">
+		var aux = $('#mainMenu').find('a[href="#discography"]');
+		$(aux).parent().addClass('active');
+		</script>
+		<?php 
 	}
-}else{	
-	$tab_activo = "active in";
 }
 ?>
 
